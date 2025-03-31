@@ -13,16 +13,12 @@ public class Main {
         panel.setLayout(new FlowLayout(FlowLayout.CENTER)); // Centralizando componentes
         
         // Criando um rótulo com a mensagem
-        JLabel label = new JLabel("Teste para comentário em Java XD!");
+        JLabel label = new JLabel("Teste para comentário em Java XD");
         label.setHorizontalAlignment(SwingConstants.CENTER);
-        
-        // Criando um botão
-        JButton button = new JButton("Clique Aqui!");
-        
+
         // Adicionando o rótulo e o botão ao painel
         panel.add(label);
-        panel.add(button);
-        
+
         // Adicionando o painel ao frame
         frame.add(panel);
         
